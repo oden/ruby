@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'r-fxxk'
+
+class Ruby < Brainfuck
+  inc 'ピギィ！'
+  dec 'ピギッ'
+  nxt 'ピギャアアア！！！'
+  prv 'ピギ～……'
+  put 'がんばルビィ！'
+  get 'ふんばルビィ！'
+  opn '⌒°( ･ω･)°⌒'
+  cls '╭°( ･ω･)°╮'
+end
+
+puts Ruby.new.fuck(ARGF.read)
+
